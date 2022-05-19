@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Outfit:wght@300;500&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+body {
+    background-color: #010409;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+#form {
+    background-color: #0d1117;
+    display: flex;
+    margin: 30px 0;
+    padding: 17px;
+}
+
+#form input {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-family: 'Space Mono', monospace;
+    font-size: 1.20rem;
+    flex-grow: 1;
+}
+#form button {
+    background-color: #2783fa;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    bottom: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+#form button:hover {
+    background-color: #2783fa;
+    opacity: 0.8;
+    color: #ffffff;
+    cursor: pointer;
+}
+#result {
+    background-color: #0d1117;
+}
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+.user-img {
+    width: 190px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.user-info{
+    color: #ffffff;
+}
+.blog {
+    color: #ffffff;
+}
+.bio {
+    font-family: 'Montserrat', sans-serif;
+}
+.name {
+    font-family: 'Space Mono', monospace;
+    margin: 0;
+    font-size: 35px;
+}
+.login {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(39, 131, 250);
+}
+.info {
+    padding: 20px 0;
+}
+.followers {
+    margin-bottom: 30px;
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    background-color: #121923;
+}
+.user-links {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 0;
+    column-gap: 35px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: flex-start;
+    list-style: none;
+    row-gap: 18px;
+    justify-content: space-between;
+}
+.user-links li { 
+    display: flex;
+    align-items: center;
+}
+.user-links li svg{ 
+    margin-right: 10px;
+}
